@@ -1,0 +1,15 @@
+Package: bash-deb-build
+Version: 0.3
+Architecture: all
+Maintainer: zvezdochiot <zvezdochiot@users.sourceforge.net>
+Section: utils
+Priority: optional
+Installed-Size: 36
+Depends: dpkg, grep, tar, gzip, coreutils, binutils
+Homepage: http://mykaralw.narod.ru/
+Description: Bash-script for build deb package.
+ Bash-script for build deb package:
+  build:
+   sudo bash-deb-build
+  unpack:
+   bash-deb-unpack package.deb

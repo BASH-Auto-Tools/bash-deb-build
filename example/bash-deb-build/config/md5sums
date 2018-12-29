@@ -1,3 +1,3 @@
-67acb21ed5eaf746338e545776ea3e62  usr/share/scripts/bash/deb-unpack.sh
-5a2d6eec06ddea876015418902d5e079  usr/share/scripts/bash/deb-build.sh
-9386fb1465342ba9b7660b72ea6dafda  usr/share/resources/bash-deb-build/example.tar.gz
+eacd0ca6845cd863b80256428cd4ff09  usr/share/scripts/bash/deb/deb-unpack.sh
+67142b35c77261ef73629b7d33bef637  usr/share/scripts/bash/deb/deb-depends-test.sh
+cf862fc46f6a9d980d953757fa218655  usr/share/scripts/bash/deb/deb-build.sh

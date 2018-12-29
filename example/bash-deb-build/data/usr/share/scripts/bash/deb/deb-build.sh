@@ -1,7 +1,7 @@
 #!/bin/bash
 #deb-build.sh
 
-VER="0.3"
+VER="0.4"
 GREEN="\033[1;32m"
 RED="\033[0;31m"
 YELLOW="\033[1;33m"

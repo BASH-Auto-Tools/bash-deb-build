@@ -1,0 +1,3 @@
+2bd75a548606505c9e5a4424e779d5c1  usr/share/scripts/dash/deb/deb-unpack.sh
+5c176de504f418c35168c4ae22c227b0  usr/share/scripts/dash/deb/deb-depends-test.sh
+d47f431fb75134521693dcf2f96e5896  usr/share/scripts/dash/deb/deb-build.sh

@@ -1,5 +1,5 @@
 bash-deb-build.  
-0.3
+0.5
 
 # Bash DEB build.
 
@@ -14,6 +14,6 @@ Bash-script for build deb package:
 dpkg, grep, tar, gzip, bzip2, lzma, coreutils, binutils
 
 ---  
-2018  
+2020  
 zvezdochiot  
-https://github.com/zvezdochiot/bash-deb-build
+https://github.com/BASH-Auto-Tools/bash-deb-build

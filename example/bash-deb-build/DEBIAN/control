@@ -1,5 +1,5 @@
 Package: bash-deb-build
-Version: 0.4
+Version: 0.5
 Architecture: all
 Maintainer: zvezdochiot <zvezdochiot@users.sourceforge.net>
 Section: utils

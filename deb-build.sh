@@ -1,7 +1,7 @@
 #!/bin/sh
 #deb-build.sh
 
-VER="0.5"
+VER="0.6"
 DEFPACK="gzip"
 
 tproc=`basename $0`
@@ -12,7 +12,7 @@ usage()
 {
     tproc=`basename $0`
     echo "usage:"
-    echo "  sudo bash $tproc [options]"
+    echo "  fakeroot sh $tproc [options]"
     echo " options:"
     echo "  -c [gzip|bzip2|lzma] - compress method"
     echo "  -h - this help"
@@ -37,6 +37,7 @@ testargs()
 testcomponent()
 {
     tnocomp=""
+    tcomp="whoami"; [ $(which $tcomp) ] || tnocomp="$tnocomp $tcomp"
     tcomp="grep"; [ $(which $tcomp) ] || tnocomp="$tnocomp $tcomp"
     tcomp="awk"; [ $(which $tcomp) ] || tnocomp="$tnocomp $tcomp"
     tcomp="tar"; [ $(which $tcomp) ] || tnocomp="$tnocomp $tcomp"
@@ -53,7 +54,7 @@ testcomponent()
 
 testroot()
 {
-    if [ "$USER" != "root" ]
+    if [ "$(whoami)" != "root" ]
     then
         echo "ERROR: You no root!"
         echo ""

@@ -1,7 +1,7 @@
 #!/bin/sh
 # deb-depends-test.sh
 
-VER="5.0"
+VER="6.0"
 
 tproc=`basename $0`
 echo "$tproc version $VER"

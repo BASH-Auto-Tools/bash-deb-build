@@ -1,7 +1,7 @@
 #!/bin/sh
 #deb-unpack.sh
 
-VER="0.5"
+VER="0.6"
 
 tproc=`basename $0`
 echo "$tproc version $VER"
@@ -11,7 +11,7 @@ usage()
 {
     tproc=`basename $0`
     echo "usage:"
-    echo "  bash $tproc packet.deb"
+    echo "  sh $tproc packet.deb"
     exit 0
 }
 
